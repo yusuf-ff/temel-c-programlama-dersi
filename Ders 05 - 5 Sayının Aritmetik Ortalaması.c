@@ -1,14 +1,11 @@
 # include <stdio.h>
-/*
-Hazırlayan : Muhammed Erdinç - muhammederdinc.com
-*/
 int main () {
 	
 	int a,b,c,d,e;
 	
 	float aritmetik;
 	
-	printf("5 Sayi Giriniz :"); // 5 Sayının ortalamasını hesaplayan program.Sayılar arasında her boşluk farklı sayıyı temsil eder.
+	printf("5 Sayi Giriniz :"); // 5 SayÄ±nÄ±n ortalamasÄ±nÄ± hesaplayan program.SayÄ±lar arasÄ±nda her boÅŸluk farklÄ± sayÄ±yÄ± temsil eder.
 	scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
 	
 	aritmetik = (a+b+c+d+e)/5;
