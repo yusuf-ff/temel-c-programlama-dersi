@@ -1,7 +1,4 @@
 #include <stdio.h>
-/*
-Haz�rlayan : Muhammed Erdin� - muhammederdinc.com
-*/
 int main()
 {
 
