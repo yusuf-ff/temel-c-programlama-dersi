@@ -1,12 +1,9 @@
 #include <stdio.h>
-/*
-Hazırlayan : Muhammed Erdinç - muhammederdinc.com
-*/
 int main() {
 
 	int sayilar[] = {1,2,3,4,5},i ;
 	
-	printf("%d",sayilar[3]); // İstenilen Eleman Ekrana Yazdırılır.
+	printf("%d",sayilar[3]); // Ãstenilen Eleman Ekrana YazdÃ½rÃ½lÃ½r.
 	
 	
 	for(i=0; i<5; i++) {
