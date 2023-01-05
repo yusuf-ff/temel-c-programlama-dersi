@@ -1,10 +1,7 @@
 #include <stdio.h>
-/*
-Hazýrlayan : Muhammed Erdinç - muhammederdinc.com
-*/
 int main () {
 	
-	// Faktöriyel Hesaplama 
+	// FaktÃ¶riyel Hesaplama 
 	
 	int Sayi,i,Sonuc=1;
 	
