@@ -1,7 +1,4 @@
 #include <stdio.h>
-/*
-Hazýrlayan : Muhammed Erdinç - muhammederdinc.com
-*/
 int main() {
 	
 	int ilksayi=0,ikincisayi=1,i,son;
