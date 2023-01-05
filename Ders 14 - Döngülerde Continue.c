@@ -1,7 +1,4 @@
 #include <stdio.h>
-/*
-Hazırlayan : Muhammed Erdinç - muhammederdinc.com
-*/
 int main () {
 	
 	int i,toplam=0,toplam2=0,a=0;
@@ -10,7 +7,7 @@ int main () {
 		
 		if(i%2 == 1) {
 			
-			continue; // Continue Komutu , döngüde kendisinin altındalki satırı çalıştırmadan döngünün başına döner. For döngüsünde continue çalıştığında i++ çalışır.  
+			continue; // Continue Komutu , dÃ¶ngÃ¼de kendisinin altÃ½ndalki satÃ½rÃ½ Ã§alÃ½Ã¾tÃ½rmadan dÃ¶ngÃ¼nÃ¼n baÃ¾Ã½na dÃ¶ner. For dÃ¶ngÃ¼sÃ¼nde continue Ã§alÃ½Ã¾tÃ½Ã°Ã½nda i++ Ã§alÃ½Ã¾Ã½r.  
 			
 		}
 		
