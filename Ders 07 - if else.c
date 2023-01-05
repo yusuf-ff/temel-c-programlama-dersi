@@ -1,7 +1,4 @@
 #include <stdio.h>
-/*
-Hazýrlayan : Muhammed Erdinç - muhammederdinc.com
-*/
 int main() {
 int not1,not2,not3,sonuc;
 
