@@ -1,7 +1,4 @@
 #include <stdio.h>
-/*
-Hazırlayan : Muhammed Erdinç - muhammederdinc.com
-*/
 int main () {
 	
 	int sayi,i,toplam=0;
@@ -13,7 +10,7 @@ int main () {
 		
 		if(sayi == -1){
 			
-			break; // Break Komutu Döngünün Dışına Çıkmak İçin Kulanılır.
+			break; // Break Komutu DÃ¶ngÃ¼nÃ¼n DÃ½Ã¾Ã½na Ã‡Ã½kmak ÃÃ§in KulanÃ½lÃ½r.
 			
 		}
 		
