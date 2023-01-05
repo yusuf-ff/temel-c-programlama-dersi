@@ -1,9 +1,6 @@
 #include <stdio.h>
-/*
-Hazırlayan : Muhammed Erdinç - muhammederdinc.com
-*/
 int main () {
-	// Gelişmiş Hesap Makinesi Örneği :)
+	// Hesap Makinesi
 
 	int islem,sayi1,sayi2,i,sayac=0;
 	float sonuc,fak=1;
