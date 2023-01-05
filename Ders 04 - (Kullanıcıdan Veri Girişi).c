@@ -1,15 +1,12 @@
 #include <stdio.h>
 #define PI 3.14
-/*
-Hazırlayan : Muhammed Erdinç - muhammederdinc.com 
-*/
 int main (){
 	
 	int yaricap;
     float hacim ;
 	
 	printf("Kurenin Yaricapini Giriniz : ");
-	scanf("%d",&yaricap); // Kullanıcıdan veri girişi almak için scanf kullanılır.
+	scanf("%d",&yaricap); // KullanÄ±cÄ±dan veri giriÅŸi almak iÃ§in scanf kullanÄ±lÄ±r.
 	
 	hacim = (4/3.0)*PI*(yaricap*yaricap*yaricap);
 	printf ("Kurenin Hacmi : %f" ,hacim);
