@@ -1,7 +1,4 @@
 #include <stdio.h>
-/*
-Hazırlayan : Muhammed Erdinç - muhammederdinc.com
-*/
 int main () {
 	
     int a = 5 , b=8 , a1=5 , b1=8; double c=8 , d =5;
@@ -11,11 +8,11 @@ int main () {
 	printf("%f \n" ,c/d);
 	printf("%d \n" ,b%a);
 	
-	printf("A = %d\n",++a); // A yı önce arttır sonra ekrana yazdır.
-	printf("B = %d\n",b++); // B yi önce ekrana yazdır sonra arttır.
-	printf("C = %d\n",a1=b1); // B1 i A1 in içine aktar.
+	printf("A = %d\n",++a); // A yÃ½ Ã¶nce arttÃ½r sonra ekrana yazdÃ½r.
+	printf("B = %d\n",b++); // B yi Ã¶nce ekrana yazdÃ½r sonra arttÃ½r.
+	printf("C = %d\n",a1=b1); // B1 i A1 in iÃ§ine aktar.
      a = 5 , b=8;
-	printf("A += B = %d\n",a+=b); // B yi Anın içine at ve topla. A = 13 Olur.
+	printf("A += B = %d\n",a+=b); // B yi AnÃ½n iÃ§ine at ve topla. A = 13 Olur.
 	printf("%d",a);
 	
 	return 0;
