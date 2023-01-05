@@ -1,9 +1,6 @@
 #include <stdio.h>
-/*
-Hazırlayan : Muhammed Erdinç - muhammederdinc.com
-*/
 int main () {
-	// Switch Case Örneği :
+	// Switch Case Ã–rneÄŸi :
 	int Bakiye = 1000,Tutar,Tercih;
 	
 	printf("Yapmak Istediginiz Islemi Seciniz :\n1.Para Cekme\n2.Para Yatirma\n3.Havale\n4.Bakiye Sorgulama\n5.Kart Iade\nSeciminiz : ");
@@ -35,7 +32,7 @@ int main () {
 				printf("\nYatirilacak Tutar : ");
 				scanf("%d",&Tutar);
 				Bakiye += Tutar;
-				printf("Yatırılan Tutar : %d TL \nBakiye : %d TL" ,Tutar,Bakiye);
+				printf("YatÄ±rÄ±lan Tutar : %d TL \nBakiye : %d TL" ,Tutar,Bakiye);
 			    break;
 			    
 		case 3 :
