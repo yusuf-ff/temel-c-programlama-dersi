@@ -1,14 +1,11 @@
 #include <stdio.h>
-#define pi 3.141592653589793 // pi sayısını burada tanımlıyor ve her yerde kullanabiliyoruz.
-/*
-Hazırlayan : Muhammed Erdinç - muhammederdinc.com
-*/
+#define pi 3.141592653589793 // pi sayÄ±sÄ±nÄ± burada tanÄ±mlÄ±yor ve her yerde kullanabiliyoruz.
 int main () {
 	float daire_yaricap,kare_kenar,dikdortgen_genislik,dikdortgen_yukseklik,daire_alan,daire_cevre,kare_alan,kare_cevre,dikdortgen_cevre,dikdortgen_alan,orta,ortc;
-	// yukarıda kullanacağımız değerleri tanımlıyoruz.
+	// yukarÄ±da kullanacaÄŸÄ±mÄ±z deÄŸerleri tanÄ±mlÄ±yoruz.
 	
-	printf("Dairenin Yaricapini Giriniz : "); // Ekrana yazdırma kodu.
-	scanf("%f", &daire_yaricap); // Daire yarıçapını float değerin içine atıyorum.
+	printf("Dairenin Yaricapini Giriniz : "); // Ekrana yazdÄ±rma kodu.
+	scanf("%f", &daire_yaricap); // Daire yarÄ±Ã§apÄ±nÄ± float deÄŸerin iÃ§ine atÄ±yorum.
 	printf("\nKarenin Kenar Uzunlugunu Giriniz : ");
 	scanf("%f" , &kare_kenar);
 	printf("\nDikdortgenin Genisligini Giriniz : ");
@@ -19,20 +16,20 @@ int main () {
 	
 	//printf("Girilen Deger :%f %f %f %f" , daire_yaricap, kare_kenar, dikdortgen_genislik, dikdortgen_yukseklik);
 	
-	daire_alan = pi * (daire_yaricap * daire_yaricap) ; // daire alanının hesaplanması
+	daire_alan = pi * (daire_yaricap * daire_yaricap) ; // daire alanÄ±nÄ±n hesaplanmasÄ±
 	//printf("Cevap : %f" , daire_alan);
 	daire_cevre = 2 * pi * daire_yaricap; // dairenin cevresini bulma
 	//printf("Cevap : %f" , daire_cevre);
-	kare_alan = kare_kenar * kare_kenar; // karenin alanını bulma
+	kare_alan = kare_kenar * kare_kenar; // karenin alanÄ±nÄ± bulma
 	//printf("Cevap1 : %f" , kare_alan);
-	kare_cevre = kare_kenar*4; // karenin çevresini bulma
+	kare_cevre = kare_kenar*4; // karenin Ã§evresini bulma
 	//printf("Cevap2 : %f" , kare_cevre);
-	dikdortgen_cevre = (dikdortgen_genislik + dikdortgen_yukseklik) *2; // dikdörtgenin cevresini bulma
+	dikdortgen_cevre = (dikdortgen_genislik + dikdortgen_yukseklik) *2; // dikdÃ¶rtgenin cevresini bulma
 	//printf("Cevap : %f" , dikdortgen_cevre);
-	dikdortgen_alan = dikdortgen_genislik * dikdortgen_yukseklik; // dikdörtgenin alanını bulma
+	dikdortgen_alan = dikdortgen_genislik * dikdortgen_yukseklik; // dikdÃ¶rtgenin alanÄ±nÄ± bulma
 	//printf("Cevap : %f" , dikdortgen_alan);
-	orta = (dikdortgen_alan +kare_alan +daire_alan)/3; // alanların ortalaması
-	ortc = (dikdortgen_cevre+kare_cevre+daire_cevre)/3; // çevrelerin ortalaması
+	orta = (dikdortgen_alan +kare_alan +daire_alan)/3; // alanlarÄ±n ortalamasÄ±
+	ortc = (dikdortgen_cevre+kare_cevre+daire_cevre)/3; // Ã§evrelerin ortalamasÄ±
 
 	
 	
@@ -46,7 +43,7 @@ printf("\n+------------+------------+------------+");
 printf("\n|Ortalama    |        %.1f|        %.1f|",orta,ortc);
 printf("\n+------------+------------+------------+\n\n\n");
 
-// yukarıda tabloyu oluşturup içerisine değerleri yazdırıyoruz.
+// yukarÄ±da tabloyu oluÅŸturup iÃ§erisine deÄŸerleri yazdÄ±rÄ±yoruz.
 	
 	return 0;
 	
