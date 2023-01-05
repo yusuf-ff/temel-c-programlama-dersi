@@ -1,17 +1,14 @@
 #include <stdio.h>
 #include <conio.h>
-/*
-Hazýrlayan : Muhammed Erdinç - muhammederdinc.com
-*/
 int main() {
 
-	int dizi1[2][2],dizi2[2][2],sonuc[2][2],a,b,islem; // Deðiþkenlerimizi Ve Dizilerimizi Oluþturuyoruz.
+	int dizi1[2][2],dizi2[2][2],sonuc[2][2],a,b,islem; // DeÄŸiÅŸkenlerimizi Ve Dizilerimizi OluÅŸturuyoruz.
 	
 	gonder:
-	printf("1) Toplama\n2) Cikarma\n3) Carpma\nYapilmak Istenen Islem : "); // Kullanýcýdan Yapmak Ýstediði Ýþlem Ýsteniyor.
+	printf("1) Toplama\n2) Cikarma\n3) Carpma\nYapilmak Istenen Islem : "); // KullanÄ±cÄ±dan Yapmak Ä°stediÄŸi Ä°ÅŸlem Ä°steniyor.
 	scanf("%d",&islem);
 	
-	if (islem<1 || islem>3) {  // Girilen Ýþlem Geçerlimi Geçersizmi Kontrol Edip geçersizse tekrar girmesini istiyoruz.
+	if (islem<1 || islem>3) {  // Girilen Ä°ÅŸlem GeÃ§erlimi GeÃ§ersizmi Kontrol Edip geÃ§ersizse tekrar girmesini istiyoruz.
 		printf("Girilen Deger Gecersizdir..\n");
 		goto gonder;
 	}
