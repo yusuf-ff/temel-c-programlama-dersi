@@ -1,18 +1,15 @@
 #include <stdio.h>
 #include <conio.h>
-/*
-Hazırlayan : Muhammed Erdinç - muhammederdinc.com
-*/
 int main(){
-	/* Örnek Açıklaması :
-	Kullanıcıdan 9 adet sayı istenmektedir.Kullanıcının girdiği sayılar doğrultusunda yatayda ve dikeyde tablo genişliği değerinde girilen sayı kadar tablolar oluşturulmaktadır.
-	for döngüsünü anlamak için güzel bir örnek. Başarılar :)
+	/* Ã–rnek AÃ§Ä±klamasÄ± :
+	KullanÄ±cÄ±dan 9 adet sayÄ± istenmektedir.KullanÄ±cÄ±nÄ±n girdiÄŸi sayÄ±lar doÄŸrultusunda yatayda ve dikeyde tablo geniÅŸliÄŸi deÄŸerinde girilen sayÄ± kadar tablolar oluÅŸturulmaktadÄ±r.
+	for dÃ¶ngÃ¼sÃ¼nÃ¼ anlamak iÃ§in Ã¶rnek.
 	*/
-	int j,i,a,satir,sutun,kackere,aralik;//işe yarayacak değişkenler tanımı
-	int sayilar[9];//kulanıcıdan aldığım sayıları diziye atmayı düşündüm daha basit kulanabileyim diye
-	int tut[9];//ilk dizimi kulandığım yerlerde bi kaç değişiklik olacağından diziyi buraya yedekleyip kulanmaktayım
+	int j,i,a,satir,sutun,kackere,aralik;//iÅŸe yarayacak deÄŸiÅŸkenler tanÄ±mÄ±
+	int sayilar[9];//kulanÄ±cÄ±dan aldÄ±ÄŸÄ±m sayÄ±larÄ± diziye atmayÄ± dÃ¼ÅŸÃ¼ndÃ¼m daha basit kulanabileyim diye
+	int tut[9];//ilk dizimi kulandÄ±ÄŸÄ±m yerlerde bi kaÃ§ deÄŸiÅŸiklik olacaÄŸÄ±ndan diziyi buraya yedekleyip kulanmaktayÄ±m
 	int tablogenislik;
-	int dizimax;//dizinin en buyuk değişkenini atayacağım
+	int dizimax;//dizinin en buyuk deÄŸiÅŸkenini atayacaÄŸÄ±m
 	tekr:
 	printf("50 den kucuk 9 tane sayi gir (aralarina bosluk koyarak):");
 	scanf("%d %d %d %d %d %d %d %d %d",&sayilar[0],&sayilar[1],&sayilar[2],&sayilar[3],&sayilar[4],&sayilar[5],&sayilar[6],&sayilar[7],&sayilar[8],&sayilar[9]);
@@ -33,7 +30,7 @@ int main(){
 		dizimax=sayilar[a];
 		}
 		
-	}//dizimizin en büyük sayısını bulduk ileri kodlarda lazım olacaktır
+	}//dizimizin en bÃ¼yÃ¼k sayÄ±sÄ±nÄ± bulduk ileri kodlarda lazÄ±m olacaktÄ±r
 	
 	tablosec:
 	printf("Tablo genisligini seciniz:(1,3,5 yada 7 seciniz):");
@@ -43,13 +40,13 @@ int main(){
 		
 	}
 	else{
-		goto tablosec;//tablo değerini yanlış girerse tekrar istemekteyim onu 2-3 ust satıra döndürmekteyim
+		goto tablosec;//tablo deÄŸerini yanlÄ±ÅŸ girerse tekrar istemekteyim onu 2-3 ust satÄ±ra dÃ¶ndÃ¼rmekteyim
 	}
 	for(a=0;a<9;a++){
 		tut[a]=sayilar[a];
 	}
 	printf("\n\nYATAY TABLO\n");
-	for(kackere=0;kackere<9;kackere++){//belli koşullarla tabloyu tasarlamaktayım el ile tasarlamaktan kaçındım biraz karmaşık oldu ama sonuc çalıştı
+	for(kackere=0;kackere<9;kackere++){//belli koÅŸullarla tabloyu tasarlamaktayÄ±m el ile tasarlamaktan kaÃ§Ä±ndÄ±m biraz karmaÅŸÄ±k oldu ama sonuc Ã§alÄ±ÅŸtÄ±
 		eksi(dizimax);
 		aralik=dizimax-sayilar[kackere];
 		for(satir=0;satir<tablogenislik;satir++){
@@ -273,7 +270,7 @@ int main(){
 /*
 
 
-BELLİ BİRKAÇ İŞLEMİ FONKSİYONLARLA YAPTIM İSTEDİĞİM ZAMAN İSTEDİĞİM YERDE ÇAĞIRABİLEYİM DİYE BÖYLE BİŞİ DENEDİM
+BELLÄ° BÄ°RKAÃ‡ Ä°ÅLEMÄ° FONKSÄ°YONLARLA YAPTIM Ä°STEDÄ°ÄÄ°M ZAMAN Ä°STEDÄ°ÄÄ°M YERDE Ã‡AÄIRABÄ°LEYÄ°M DÄ°YE BÃ–YLE BÄ°ÅÄ° DENEDÄ°M
 
 
 */
