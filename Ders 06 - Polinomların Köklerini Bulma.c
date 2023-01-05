@@ -1,10 +1,7 @@
 # include <stdio.h>
 # include <math.h>
-/*
-Hazýrlayan : Muhammed Erdinç - muhammederdinc.com
-*/
 int main () {
-	// Girilen denklemin köklerini bulan c programý.
+	// Girilen denklemin kÃ¶klerini bulan c programÄ±.
 	int a,b,c;
 	float delta, x1 ,x2;
 	
